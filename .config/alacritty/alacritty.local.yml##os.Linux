@@ -1,0 +1,6 @@
+# Linux version
+font:
+  size: 13
+
+shell:
+  program: /usr/bin/fish
