@@ -1,6 +1,7 @@
 # Deal with the difference between OS
 import:
   - ~/.config/alacritty/alacritty.local.yml
+  - ~/.config/alacritty/alacritty.keybindings.yml
 
 # Display tabs using this many cells
 tabspaces: 4
@@ -30,3 +31,8 @@ shell:
     - --login
     - --command
     - "tmux new-session -A -D -s main"
+
+keybindings:
+  # fix im problems
+  - { key: Back, action: ReceiveChar }
+
