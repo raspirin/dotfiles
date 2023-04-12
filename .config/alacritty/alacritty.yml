@@ -1,0 +1,32 @@
+# Deal with the difference between OS
+import:
+  - ~/.config/alacritty/alacritty.local.yml
+
+# Display tabs using this many cells
+tabspaces: 4
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+
+env:
+  TERM: xterm-256color
+
+shell:
+  args:
+    - --login
+    - --command
+    - "tmux new-session -A -D -s main"
