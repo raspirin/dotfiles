@@ -1,0 +1,10 @@
+# macOs version
+window:
+  startup_mode: SimpleFullScreen
+  decorations: None
+
+font:
+  size: 14
+
+shell:
+  program: /usr/local/bin/fish

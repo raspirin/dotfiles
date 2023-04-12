@@ -1,4 +1,8 @@
 # Linux version
+window:
+  startup_mode: Maximized
+  decorations: Full  
+
 font:
   size: 13
 
