@@ -1,6 +1,7 @@
 # Deal with the difference between OS
 import:
   - ~/.config/alacritty/alacritty.local.yml
+  - ~/AppData/Roaming/alacritty/alacritty.local.yml
   - ~/.config/alacritty/alacritty.keybindings.yml
 
 # Display tabs using this many cells
