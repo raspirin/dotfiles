@@ -8,3 +8,7 @@ font:
 
 shell:
   program: /usr/local/bin/fish
+  args:
+    - --login
+    - --command
+    - "tmux new-session -A -D -s main"

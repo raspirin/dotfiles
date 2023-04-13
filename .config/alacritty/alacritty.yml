@@ -26,12 +26,6 @@ font:
 env:
   TERM: xterm-256color
 
-shell:
-  args:
-    - --login
-    - --command
-    - "tmux new-session -A -D -s main"
-
 keybindings:
   # fix im problems
   - { key: Back, action: ReceiveChar }
