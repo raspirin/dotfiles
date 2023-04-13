@@ -1,0 +1,16 @@
+set scrolloff=5
+set clipboard+=unnamed
+set clipboard+=ideaput
+set number relativenumber
+set ideajoin
+set incsearch
+
+map Q gq
+
+let mapleader = ' '
+map \r <Action>(ReformatCode)
+map <leader>t <Action>(ActivateTerminalToolWindow)
+map <leader>h <Action>(HideActiveWindow)
+map <leader>g <Action>(GotoDeclaration)
+map <leader>re <Action>(RenameElement)
+map <leader>l <Action>(NextTab)
