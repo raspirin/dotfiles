@@ -6,6 +6,9 @@ import:
 # Display tabs using this many cells
 tabspaces: 4
 
+window:
+  opacity: 0.9
+
 font:
   normal:
     family: JetBrainsMono Nerd Font
